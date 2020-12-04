@@ -482,3 +482,26 @@ We only ship the code here, and how you are going to use it is left to your own 
 Made by [@soimort](https://github.com/soimort), who is in turn powered by :coffee:, :beer: and :ramen:.
 
 You can find the [list of all contributors](https://github.com/soimort/you-get/graphs/contributors) here.
+
+新建txt文档
+
+@echo off
+for /f "delims=," %%i in (url_list.txt) do (
+you-get -l -o E:\MyVedio %%i
+)
+pause
+
+将该txt保存为bat格式
+
+在新建个url_list.txt
+将要下载的bilibili视频地址放进去
+点击bat即可下载
+
+
+
+
+
+
+
+
+
